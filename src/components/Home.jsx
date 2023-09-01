@@ -34,7 +34,7 @@ const simple = (e)=> { if(user==="") {
         <div className="row custom d-grid">
             <div className="col-12 customcol d-flex flex-column align-items-center gap-5 ">
                 
-                <h1 className='mt-5 text-center' >Chat Application</h1 >
+                <h1 className='mt-5 text-center' >CHATSAPP</h1 >
                 <input type="text" placeholder='Name' id='place'  onChange={(event)=>{setuser(event.target.value)}} />
                <Link  to = "/chat"  onClick={simple}  > <button onClick={name}  className=' btn ' style={{backgroundColor:'grey'}}>Join Chat Room</button></Link> 
                 
