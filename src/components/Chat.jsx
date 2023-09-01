@@ -35,7 +35,7 @@ useEffect(() => {
   })
   return () => {
 
-socket.off()
+
   }
 },[whatsapp])
 
@@ -53,7 +53,7 @@ socket.off()
 
   return (<>
   <div className="tt flex flex-column">
-    <ReactScrollToBottom className="message"> <h1 className='text-center' style={{color:'white',fontFamily:'cursive',fontWeight:700 , height:'10vmax'}}>Welcome to Heisenberg Chat Server Version 1.1</h1> {whatsapp.map((item)=> <Message user={item.user} messagety= {item.messagety}  />)} </ReactScrollToBottom>
+    <ReactScrollToBottom className="message"> <h1 className='text-center' style={{color:'white',fontFamily:'cursive',fontWeight:700 , height:'10vmax'}}> Heisenberg Chat Server Demo Version 1.1</h1> {whatsapp.map((item)=> <Message user={item.user} messagety= {item.messagety}  />)} </ReactScrollToBottom>
     <div className=" d-flex  flex-row chat">
     <input type="text" placeholder='Message' className='holder mt-1 ' id='input'  />
     <button className='butti align-self-end mt-3' onClick={sendmessage} ><i class="bi bi-send"></i></button>

@@ -4,7 +4,7 @@
     height: fit-content;
     width: 45vmax;
     min-width: 350px;
-    text-align: center;
+    font-family: fantasy;
   word-wrap: break-word;
     background-color: rgb(21, 43, 55);
     font-family: verdana;
@@ -13,6 +13,11 @@
     margin-bottom: 7px;
 overflow-x: hidden;
 font-size: 23px;
+
 }
-#bb{color: rgb(245, 106, 7);}
+#bb{color: rgb(144, 195, 228);
+padding-right: 17px;
+padding-left: 5px;
+text-align: start;
+}
 

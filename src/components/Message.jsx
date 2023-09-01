@@ -11,7 +11,7 @@ const Message = ({user,messagety}) => {
     }
     else{
         return(
-            <div className='messagebox'> {`You:${messagety}`} </div>
+            <div className='messagebox'> {`Unknown:${messagety}`} </div>
 
         )
     }
