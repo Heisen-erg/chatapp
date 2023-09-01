@@ -2,7 +2,8 @@
     display: inline-block;
     clear: both;
     height: fit-content;
-    width: 40vmax;
+    width: 45vmax;
+    min-width: 350px;
     text-align: center;
   word-wrap: break-word;
     background-color: rgb(21, 43, 55);
