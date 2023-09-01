@@ -1,0 +1,34 @@
+*{
+    overflow: hidden; 
+}
+
+.message{
+    height: 50vh;
+    width: 40vmax;
+   min-width: 350px;
+    background-color: rgb(122, 151, 171);
+    
+  
+}
+.tt{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    width:100vw;
+}
+
+
+.holder{
+   width:36vmax;
+    
+   
+}
+.butti{
+    background-color: rgb(58, 71, 67);
+    width: 3vw;
+ margin-bottom: 1vh;
+    margin-left: 1vw;
+    min-width: 48px;
+    color: white;
+}
