@@ -6,7 +6,7 @@ import ReactScrollToBottom from "react-scroll-to-bottom"
 import Message from './Message.jsx'
 
 
-let socket = socketIo("https://chat-rncq.onrender.com",{ transports : ['websocket'] })
+let socket = socketIo("https://chatserver-ochre.vercel.app",{ transports : ['websocket'] })
 
 const Chat = () => {
 
